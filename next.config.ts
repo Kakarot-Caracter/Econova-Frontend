@@ -1,8 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async rewrites() {
+    return [
+      {
+        source: "/api/:path*",
+        destination: "http://localhost:3001/api/v1/:path*",
+      },
+    ];
+  },
   reactCompiler: true,
+  images: {
+    domains: ["upload.wikimedia.org", "res.cloudinary.com"],
+  },
 };
 
 export default nextConfig;

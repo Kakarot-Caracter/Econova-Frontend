@@ -2,7 +2,7 @@
   <br />
   <h1>Econova Frontend</h1>
   <p>
-    Frontend profesional para una tienda de comercio electrónico de productos ecológicos, construido con Next.js, TypeScript y Tailwind CSS.
+    Frontend profesional para una tienda de comercio electrónico de productos, construido con Next.js, TypeScript y Tailwind CSS.
   </p>
 </div>
 

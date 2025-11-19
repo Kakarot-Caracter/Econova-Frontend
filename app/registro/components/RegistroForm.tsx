@@ -49,11 +49,11 @@ export default function RegistroForm() {
   const form = useForm({
     resolver: zodResolver(UsuarioSchema),
     defaultValues: {
-      name: "Giovanni Martinez",
-      email: "itachimartinez0@gmail.com",
-      phone: "1234567890",
-      address: "Calle Principal",
-      password: "password123",
+      name: "",
+      email: "",
+      phone: "",
+      address: "",
+      password: "",
     },
   });
 
